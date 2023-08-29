@@ -1,0 +1,61 @@
+{
+  "header": [
+    "I have one year of professional experience working as a full time developer. Here are some details about it."
+  ],
+
+  "experience": [
+    {
+      "company": "SoftColon Technology Private Limited",
+      "role": "Frontend Engineer",
+      "duration": "Since Apr 2023",
+      "description": "As a software developer, the primary role would be to design, create, and maintain software applications that meet the needs of the business or organization. This involves writing and reviewing code, testing and debugging software, and collaborating with other team members to ensure that the software meets the necessary specifications. It also involves researching new technologies and trends in the field to stay current and adapt to changing needs.",
+      "techStack": "React.js, Material UI, Chakra UI, Node JS, Mongo DB",
+      "url": "https://softcolon.com/"
+    },
+    {
+      "company": "Idea to implementation infotech",
+      "role": "Software Engineer",
+      "duration": "Fab 2022 - Mar 2023",
+      "description": "I worked on institute management application. I contributed to both the backend and frontend of the app. I implemented the integration of Google Calendar API and Razorpay Integration using SDK. Also, I developed tables using Tabler React to show students' data.",
+      "techStack": "React.js, Node.js, Express.js, MongoDB",
+      "url": "https://www.i2i-info.com/"
+    }
+  ],
+
+  "projects": {
+    "text": "Projects are a great way to apply all our learnings. Here are the ones that I have created.",
+    "list": [
+      {
+        "name": "Voicey",
+        "description": "This voice chat application allows users to create rooms and join them. This has been built on peer-to-peer technology. Also, it has an OTP-based authentication. And the idea is inspired by Clubhouse.",
+        "techStack": "React.js, Redux, Express.js, MongoDB, WebRTC, Socket.io",
+        "links": [
+          {
+            "name": "GitHub",
+            "svg": "GitHub",
+            "url": "https://github.com/itsomkathe/Voicey"
+          }
+        ]
+      },
+      {
+        "name": "Snapsprout",
+        "description": "This social media application has all the features, such as uploading pictures, liking, commenting, searching, and much more. The UI seems to be seen someplace, though :-)",
+        "techStack": "React.js, Express.js, MongoDB, Lottie Animation",
+        "links": [
+          {
+            "name": "GitHub",
+            "svg": "GitHub",
+            "url": "https://github.com/itsomkathe/snapsprout"
+          },
+          {
+            "name": "Live",
+            "svg": "Eye",
+            "url": "https://snapsprout.herokuapp.com/"
+          }
+        ]
+      }
+    ]
+  },
+
+  "codingProfiles": "I like solving problems related to DSA. Here are some of my profiles."
+}
