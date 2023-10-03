@@ -1,6 +1,6 @@
+import { Home as HomePage } from "@Components/Home/Home";
 import type { NextPage } from "next";
 import Head from "next/head";
-import { Home as HomePage } from "@Components/Home/Home";
 
 const Home: NextPage = () => {
     return (
@@ -12,7 +12,7 @@ const Home: NextPage = () => {
                     content="text/html; charset=utf-8"
                 />
                 <meta
-                    property="og:title"
+                    property="jay:title"
                     content="Hello There! | Om Kathe"
                 ></meta>
                 <meta
@@ -29,7 +29,7 @@ const Home: NextPage = () => {
                     content="https://www.omkathe.me/og-image.png"
                 />
                 <meta property="og:type" content="website" />
-                <meta name="apple-mobile-web-app-title" content="Om Kathe" />
+                <meta name="apple-mobile-web-app-title" content="Jay" />
                 <meta
                     name="apple-mobile-web-app-status-bar-style"
                     content="default"

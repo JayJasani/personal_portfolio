@@ -1,6 +1,6 @@
+import BlogsPage from "@Components/Blogs/Blogs";
 import type { NextPage } from "next";
 import Head from "next/head";
-import BlogsPage from "@Components/Blogs/Blogs";
 
 const Blogs: NextPage<BlogProps> = ({ blogList }) => {
     console.log({ blogList });
@@ -15,7 +15,7 @@ const Blogs: NextPage<BlogProps> = ({ blogList }) => {
                 />
                 <meta
                     property="og:title"
-                    content="Hello There! | Om Kathe"
+                    content="Hello There! | Jay"
                 ></meta>
                 <meta
                     name="description"
@@ -27,7 +27,7 @@ const Blogs: NextPage<BlogProps> = ({ blogList }) => {
                 />
                 <meta
                     name="apple-mobile-web-app-title"
-                    content="Om Kathe's Blog"
+                    content="Jay's Blog"
                 />
                 <meta
                     name="apple-mobile-web-app-status-bar-style"
