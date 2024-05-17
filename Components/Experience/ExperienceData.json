@@ -1,8 +1,7 @@
 {
   "header": [
-    "I have one year of professional experience working as a full time developer. Here are some details about it."
+    "I have 2+ year of professional experience working as a full time developer. Here are some details about it."
   ],
-
   "experience": [
     {
       "company": "SoftColon Technology Private Limited",
@@ -21,7 +20,6 @@
       "url": "https://www.i2i-info.com/"
     }
   ],
-
   "projects": {
     "text": "Projects are a great way to apply all our learnings. Here are the ones that I have created.",
     "list": [
@@ -56,6 +54,5 @@
       }
     ]
   },
-
   "codingProfiles": "I like solving problems related to DSA. Here are some of my profiles."
 }
