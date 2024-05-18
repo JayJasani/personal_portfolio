@@ -14,26 +14,26 @@ import data from "./ExperienceData.json";
 import classes from "./Experience.module.css";
 
 export const Experience: FC = (): ReactElement => {
-    const header: string[] = data.header;
-    const experience: Experience[] = data.experience;
-    const projectList: Project[] = data.projects.list;
+  const header: string[] = data.header;
+  const experience: Experience[] = data.experience;
+  const projectList: Project[] = data.projects.list;
 
-    return (
-        <Aligner>
-            <>
-                <div className={classes.titleWrapper}>
-                    <NameTitle name="jay | " page="experience" />
-                    <ThemeToggle />
-                </div>
-                <Navigation />
-                {header.map((item, idx) => (
-                    <Paragraph key={idx}>{item}</Paragraph>
-                ))}
-                <div className={classes.workexContainer}>
-                    <Title>💼 Work Experience</Title>
-                    <WorkEx experience={experience} />
-                </div>
-                {/* <div className={classes.projects}>
+  return (
+    <Aligner>
+      <>
+        <div className={classes.titleWrapper}>
+          <NameTitle name="jay | " page="experience" />
+          <ThemeToggle />
+        </div>
+        <Navigation />
+        {header.map((item, idx) => (
+          <Paragraph key={idx}>{item}</Paragraph>
+        ))}
+        <div className={classes.workexContainer}>
+          <Title>💼 Work Experience</Title>
+          <WorkEx experience={experience} />
+        </div>
+        {/* <div className={classes.projects}>
                     <Title>🛠️ Projects</Title>
                     <Paragraph>{data.projects.text}</Paragraph>
                     {projectList.map((project, index) => (
@@ -46,7 +46,7 @@ export const Experience: FC = (): ReactElement => {
                         />
                     ))}
                 </div> */}
-                {/* <div className={classes.profiles}>
+        {/* <div className={classes.profiles}>
                     <Title>🎯 Coding Profiles</Title>
                     <Paragraph>{data.codingProfiles}</Paragraph>
                     <SocialLinks
@@ -54,8 +54,8 @@ export const Experience: FC = (): ReactElement => {
                         links={codingProfilesLinks}
                     />
                 </div> */}
-                {/* <Footer /> */}
-            </>
-        </Aligner>
-    );
+        {/* <Footer /> */}
+      </>
+    </Aligner>
+  );
 };

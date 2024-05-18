@@ -1,14 +1,16 @@
-import type { AppProps } from 'next/app';
-import Script from 'next/script';
-import '../styles/Standard.css';
-import '../styles/globals.css';
-
+import type { AppProps } from "next/app";
+import Script from "next/script";
+import "../styles/Standard.css";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
-
   return (
     <>
-      <Script id="gtm-script1" strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
+      <Script
+        id="gtm-script1"
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+      />
 
       <Script id="gtm-script2" strategy="lazyOnload">
         {`
@@ -23,7 +25,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
       <Component {...pageProps} />
     </>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;
