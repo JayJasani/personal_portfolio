@@ -13,9 +13,6 @@ Welcome to my personal portfolio! This project is built using [Next.js](https://
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Overview
 
