@@ -33,19 +33,19 @@ export const Experience: FC = (): ReactElement => {
           <Title>💼 Work Experience</Title>
           <WorkEx experience={experience} />
         </div>
-        {/* <div className={classes.projects}>
-                    <Title>🛠️ Projects</Title>
-                    <Paragraph>{data.projects.text}</Paragraph>
-                    {projectList.map((project, index) => (
-                        <Project
-                            key={index}
-                            name={project.name}
-                            description={project.description}
-                            techStack={project.techStack}
-                            links={project.links}
-                        />
-                    ))}
-                </div> */}
+        <div className={classes.projects}>
+          <Title>🛠️ Projects</Title>
+          <Paragraph>{data.projects.text}</Paragraph>
+          {projectList.map((project, index) => (
+            <Project
+              key={index}
+              name={project.name}
+              description={project.description}
+              techStack={project.techStack}
+              links={project.links}
+            />
+          ))}
+        </div>
         {/* <div className={classes.profiles}>
                     <Title>🎯 Coding Profiles</Title>
                     <Paragraph>{data.codingProfiles}</Paragraph>
@@ -54,7 +54,7 @@ export const Experience: FC = (): ReactElement => {
                         links={codingProfilesLinks}
                     />
                 </div> */}
-        {/* <Footer /> */}
+        <Footer />
       </>
     </Aligner>
   );
