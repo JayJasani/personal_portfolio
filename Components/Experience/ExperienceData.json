@@ -24,6 +24,23 @@
     "text": "Projects are a great way to apply all our learnings. Here are the ones that I have created.",
     "list": [
       {
+        "name": "Personal Portfolio",
+        "description": "This is my portfolio, where I showcase my skills and projects built using cutting-edge technologies and innovative design.",
+        "techStack": "Next.js, React.js",
+        "links": [
+          {
+            "name": "GitHub",
+            "svg": "GitHub",
+            "url": "https://github.com/JayJasani/personal_portfolio"
+          },
+          {
+            "name": "Live",
+            "svg": "Eye",
+            "url": "https://personal-portfolio-esya-buaskcnqk-jayjasanis-projects.vercel.app/"
+          }
+        ]
+      },
+      {
         "name": "Discord Bot",
         "description": "This is a versatile Discord bot designed to simplify server management, offering easy-to-use moderation, entertainment, and utility commands for seamless community engagement.",
         "techStack": "Node js",
