@@ -24,6 +24,18 @@
     "text": "Projects are a great way to apply all our learnings. Here are the ones that I have created.",
     "list": [
       {
+        "name": "NutriTrack",
+        "description": "This is NutriTrack your ultimate nutrition and wellness companion. Track your meals, monitor your health goals, and receive personalized nutrition plans tailored to your lifestyle. Achieve your best self with NutriTrack!",
+        "techStack": "Next.js, React.js, Tailwind CSS, Framer Motion",
+        "links": [
+          {
+            "name": "Live",
+            "svg": "Eye",
+            "url": "https://nutri-track-seven.vercel.app/"
+          }
+        ]
+      },
+      {
         "name": "Personal Portfolio",
         "description": "This is my portfolio, where I showcase my skills and projects built using cutting-edge technologies and innovative design.",
         "techStack": "Next.js, React.js",
